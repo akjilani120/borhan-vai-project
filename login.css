@@ -1,0 +1,46 @@
+.login-form-side{
+   
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px silver;
+}
+.login-payment-side{
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px silver;
+    height: 580px;
+    
+}
+.input-item{
+    background-color: silver;
+    color: black;
+}
+.input-item ::placeholder{
+    color: black;
+}
+.input-item:focus{
+    background-color: silver;
+    outline: none !important;
+    border:  none ;
+}
+.select-form{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid skyblue;
+}
+.select-form:focus{
+    border: 2px solid skyblue;
+   
+}
+.submi-btn{
+    background-color: red;
+    border-radius: 25px;
+    width: 75%;
+    margin: 15px auto;
+    color: white;
+    height: 45px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.submi-btn:hover{
+    background-color: black;
+    
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+}
+.sign-header{
+    background: whitesmoke;
+    
+}
+.signIn-main{
+    display: flex;
+    justify-content: center;
+}
+.sign-body{
+ width: 50%;
+ background-color: white;
+ padding: 15px;
+ border-radius: 8px;
+ margin-top: 25px;
+}
+.sign-body-head{   
+    background-color: #FAB300;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    border-bottom: 5px solid red;
+
+}
+.sign-details{
+    line-height: 28px;
+    font-size: 18px;
+}
+.label-icon{
+    font-size: 20px;
+    color: red;
+
+}
+.submi-btn{
+    background-color: red;
+    border-radius: 25px;
+    width: 75%;
+    margin: 15px auto;
+    color: white;
+    height: 45px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+.submi-btn:hover{
+    background-color: black;
+    
+}
+@media screen and (max-width:850px) {
+    .sign-body{
+        width: 90%;
+       
+    }
+}
